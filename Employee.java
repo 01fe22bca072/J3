@@ -26,9 +26,9 @@ class Employee {
         System.out.println("Name: " + name);
         System.out.println("Salary: " + salary+"\n");
     }
-}
 
-class Test {
+
+
     public static void main(String[] args) {
         Employee employee = new Employee(1, "John Doe", 50000);
         employee.displayEmployeeDetails();
